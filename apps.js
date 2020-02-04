@@ -12,7 +12,7 @@ $(document).ready(function () {
 
             // in here you can access friends[index % friends.length]
 
-            alert(`Accusation ${i} I accuse ${friendName[i % friendName.length]}, with the ${weaponName[i % weaponName.length]} in the ${locationName[i % locationName.length]}! `)
+            alert(`Accusation ${i}  -  I accuse ${friendName[i % friendName.length]}, with the ${weaponName[i % weaponName.length]} in the ${locationName[i % locationName.length]}! `)
 
         }
     }
